@@ -1,0 +1,121 @@
+*{
+    font-family: montserrat;
+}
+#index{
+    background-color:#FF4260;
+    font-family: Montserrat;
+    color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 1%;
+    font-family: Ubuntu;
+}
+.heading{
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.btn{
+    padding: 0 30px;
+    margin-left: 30px;
+}
+.iphone{
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-top: 5%;
+    position: relative;
+    top: -0px;
+    left: 150px;
+  
+}
+.benifits{
+    text-align: center;
+    padding: 10% 15%;  
+}
+p{
+    color: grey;
+}
+.symbol:hover{
+    color:grey;
+    cursor: pointer;
+}
+h3{
+    font-weight: bold;
+    font-size: 40px;
+}
+.symbol{
+    color: #FF4260;
+}
+.car{
+    background-color:#FF4260 ;
+    text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.cat1{
+    width: 10%;
+    border-radius: 100%;
+}
+.cat2{
+    padding: 7% 15%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.b{
+    height:140px ;
+}
+.a{
+    height: 140px;
+}
+.c{
+    height: 140px;
+}
+#card-section{
+    text-align: center;
+    padding:100px ;
+}
+.Card-column{
+    padding: 3% 2%;
+}
+#abc{
+    font-weight: bold;
+    font-size: 40px;
+}
+#cta{
+    background-color:#FF4260 ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: "Montserrat-Black";
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media (max-width: 991px){
+    .heading{
+        text-align: center;
+    }
+    .iphone{
+        position: relative;
+       
+    }
+}
