@@ -9,12 +9,13 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="log.css">     
+<link rel="stylesheet" href="login.css">     
     <title>Log in</title>
 </head>
 <body>
     <h1>tinCat</h1>
-    <div class="main">
+    <form class="form1">
+    
         <h2>Log In</h2>
         <p>Please fill details to log in.</p><br><br>
     <div class="form-group">
@@ -25,9 +26,10 @@
         
         <input type="password" class="form-control" id="inputPassword" placeholder="Password">
       </div>
-      <a class="f" href="#">Forgot Password?</a><br>
+      <a class="forget" href="#">Forgot Password?</a><br>
       <button type="submit" class="btn btn-primary">Log In</button>
-      <p>Don't have an account? <a href="sign up.html">Create a new account</a></p>
-    </div>
+      <p class="last">Don't have an account? <a href="sign up.html">Create a new account</a></p>
+    
+</form>
 </body>
 </html>
